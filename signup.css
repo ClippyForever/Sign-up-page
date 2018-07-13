@@ -1,0 +1,100 @@
+html{
+background-color: deepskyblue;
+padding: 52px;
+}
+
+.logo{
+	width:166px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+  background-image: url('https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png');
+  background-repeat: no-repeat;
+  background-size: 166px 35px;
+}
+
+
+.signup-form{
+	margin-top: 30px;
+	width:320px;
+	height: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 40px;
+display: block;
+border-radius: 3px;
+}
+
+.signup-form fieldset{
+	width:320px !important;
+		display: block;
+	padding: 0;
+	border :none;
+  margin: 0;
+}
+
+legend{
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	color:cadetblue;
+	margin-bottom: 40px;
+
+}
+
+label{
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+input{
+	border-radius: 3px;
+	width:286px ;
+	height: 21px;
+	display: block;
+	padding:15px;
+	border: 2px solid gainsboro;
+	margin-bottom: 10px;
+
+}
+input:focus{
+ outline: auto 2px #87ceeb;
+ /* Preseve default focus behavior in webkit browsers */
+ outline: auto 5px -webkit-focus-ring-color;
+ box-shadow: 0;
+
+}
+
+button{
+	border-radius: 3px;
+	border: 0px;
+	display: block;
+    margin-top: 20px;
+	width:320px;
+	height:50px;
+	background-color: #15CD72  ;
+	color: white;
+	font-size: 20px;
+}
+button:hover{
+background-color: #10a45b;
+}
+
+
+
+b{
+	margin-top:20px;
+	   display: block;
+	   width:300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	color:white;
+}
+
+a{
+	color:white;
+}
+
